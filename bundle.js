@@ -13,7 +13,7 @@ let file, hash, hub, key, sw, transfers;
 let peers = [];
 let hubs = "production" === 'production' ? [
 // 'https://signalhub.mafintosh.com/', // bug in lib
-'https://signalhub-www.pastefile.com/', 'https://signalhub.thingylabs.io/'] : 'http://localhost:7000';
+'https://signalhub.thingylabs.io/'] : 'http://localhost:7000';
 hubs = undefined ? undefined.split(',') : hubs;
 $('#version').html(version);
 attachListeners();
